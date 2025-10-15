@@ -1,0 +1,29 @@
+body{
+    font-family: sans-serif;
+    margin:0;
+    background-color: navajowhite;
+}
+header{
+    background-color:darkgrey;
+    text-align: center;
+    padding:10px 0px;
+}
+nav li{
+    list-style-type: none;
+}
+nav li{
+    display:inline-block;
+    margin:0px 10px
+}
+nav a{
+    color:royalblue;
+    text-decoration:none;
+    padding:10px 20px;
+}
+nav a:hover{
+    background-color:blue;
+    border-radius:5px;
+}
+h1{
+    color:lightskyblue;
+}
