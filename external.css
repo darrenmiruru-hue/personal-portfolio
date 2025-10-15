@@ -1,10 +1,10 @@
 body{
     font-family: sans-serif;
     margin:0;
-    background-color: navajowhite;
+    background-color: whitesmoke;
 }
 header{
-    background-color:darkgrey;
+    background-color:ivory;
     text-align: center;
     padding:10px 0px;
 }
@@ -18,12 +18,91 @@ nav li{
 nav a{
     color:royalblue;
     text-decoration:none;
-    padding:10px 20px;
+    padding:10px 10px;
 }
-nav a:hover{
-    background-color:blue;
-    border-radius:5px;
+nav a:hover {
+    background-color: blue;
+    border-radius: 5px;
 }
-h1{
-    color:lightskyblue;
+main{
+    padding:30px;
 }
+#profile{
+    width:75px;
+    height:100px;
+    border-radius: 60%;
+}
+#about {
+    background-color: lightskyblue;
+    padding: 20px;
+    border: darkgreen 20px;
+    border-radius: 10px;
+    box-shadow: blue 5px 5px;
+    border-radius: 20px;
+}
+#PROJECTCONTAINER{
+    display:flex;
+    gap: 20px;
+    margin-bottom: 15px;
+    background-color: darkgrey;
+    text-decoration: lightskyblue;
+}
+.projo{
+    background-color:aliceblue;
+    padding:20px;
+    border:chartreuse 5px;
+    border-radius: 20px;
+    box-shadow:0 0 6px deepskyblue;
+    text-align:center;
+    flex:200px;
+
+}
+h3{
+    color: black;
+}
+h2{
+    color: black;
+}
+footer{
+    background-color: grey;
+    text-align: center;
+    color: royalblue;
+    padding:15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-bottom-style: solid;
+}
+
+#contact {
+    background-color:aliceblue;
+    text-align: center;
+    color: royalblue;
+    padding: 20px;
+    margin-top: 20px;
+    font: large;
+}
+.contact-form button{
+    background-color: blue;
+    color: darkgreen;
+    border: none;
+    border-radius: 8px;
+    padding:12px;
+    font-size: larger;
+    cursor:pointer;
+    font-family: Algerian;
+
+}
+.contact-form{
+    display:flex;
+    flex-direction:column;
+    max-width: 500px;
+    margin: 0 auto;
+    gap:15px;
+
+}
+.contact-form button:hover{
+    background-color: yellow;
+}
+
+
+
